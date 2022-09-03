@@ -8,6 +8,8 @@
 
 class AVL {
 private:
+    Nodo* root;
+public:
     int height(Nodo*);
     int difference(Nodo*);
     Nodo *rrRotation(Nodo*);
